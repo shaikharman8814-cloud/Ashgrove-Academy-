@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ashgrove Academy — an independent day school for curious minds in years 7 to 13. Explore our programmes, campus life and admissions."
+    />
+    <title>Ashgrove Academy — Where curiosity becomes character</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="intro" aria-hidden="true">
+      <span class="intro__mark">A</span>
+      <span class="intro__line"></span>
+    </div>
+
+    <div class="progress" aria-hidden="true"><span></span></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <header class="site-head" data-head>
+      <a class="brand" href="#top" aria-label="Ashgrove Academy home">
+        <span class="brand__mark">A</span>
+        <span class="brand__text">Ashgrove<em>Academy</em></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#programmes">Programmes</a>
+        <a href="#campus">Campus</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#watch">Watch</a>
+        <a href="#admissions">Admissions</a>
+      </nav>
+
+      <a class="btn btn--ghost head-cta" href="#admissions">Book a visit</a>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile">
+        <a href="#about"><span>01</span> About</a>
+        <a href="#programmes"><span>02</span> Programmes</a>
+        <a href="#campus"><span>03</span> Campus</a>
+        <a href="#faculty"><span>04</span> Faculty</a>
+        <a href="#watch"><span>05</span> Watch</a>
+        <a href="#voices"><span>06</span> Voices</a>
+        <a href="#admissions"><span>07</span> Admissions</a>
+      </nav>
+      <p class="mobile-menu__foot">Ashgrove Academy · Est. 1912</p>
+    </div>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero" data-hero>
+        <div class="hero__bg" aria-hidden="true">
+          <span class="orb orb--lime"></span>
+          <span class="orb orb--coral"></span>
+          <span class="ring"></span>
+          <span class="hero__grid"></span>
+        </div>
+
+        <div class="hero__inner">
+          <p class="eyebrow" data-reveal>
+            <span class="dot"></span> Independent day school · Ages 11–18
+          </p>
+
+          <h1 class="hero__title">
+            <span class="line"><span style="--d: 0.05s">Where curiosity</span></span>
+            <span class="line"><span style="--d: 0.17s">becomes</span></span>
+            <span class="line"><span class="accent" style="--d: 0.29s">character.</span></span>
+          </h1>
+
+          <div class="hero__bottom">
+            <p class="hero__lede" data-reveal style="--i: 3">
+              Small classes, big questions and a campus that feels like a second
+              home. At Ashgrove, pupils learn how to think — not just what to
+              answer.
+            </p>
+            <div class="hero__actions" data-reveal style="--i: 4">
+              <a class="btn btn--solid" href="#admissions">
+                Start your application
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a class="link-arrow" href="#programmes">Explore programmes</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__ticker" aria-hidden="true">
+          <div class="ticker__track">
+            <span>Inquiry</span><i>✳</i><span>Integrity</span><i>✳</i><span>Courage</span><i>✳</i><span>Kindness</span><i>✳</i><span>Curiosity</span><i>✳</i>
+            <span>Inquiry</span><i>✳</i><span>Integrity</span><i>✳</i><span>Courage</span><i>✳</i><span>Kindness</span><i>✳</i><span>Curiosity</span><i>✳</i>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about"><span>Scroll</span><i></i></a>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>01 — About Ashgrove</p>
+            <p class="label label--right" data-reveal>Est. 1912 · Northfield</p>
+          </div>
+
+          <p class="statement" data-words>
+            We are a school built on conversation. Pupils are known by name,
+            pushed to ask better questions, and given the room to grow into
+            thoughtful, capable people.
+          </p>
+
+          <div class="stats">
+            <div class="stat" data-reveal style="--i: 0">
+              <span class="stat__num" data-count="9" data-suffix=":1">0</span>
+              <span class="stat__label">Pupil–teacher ratio</span>
+            </div>
+            <div class="stat" data-reveal style="--i: 1">
+              <span class="stat__num" data-count="42" data-suffix="">0</span>
+              <span class="stat__label">Clubs and societies</span>
+            </div>
+            <div class="stat" data-reveal style="--i: 2">
+              <span class="stat__num" data-count="96" data-suffix="%">0</span>
+              <span class="stat__label">Pupils who feel supported</span>
+            </div>
+            <div class="stat" data-reveal style="--i: 3">
+              <span class="stat__num" data-count="114" data-suffix="">0</span>
+              <span class="stat__label">Years of teaching</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMMES -->
+      <section class="section programmes" id="programmes">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>02 — Programmes</p>
+            <p class="label label--right" data-reveal>Years 7 – 13</p>
+          </div>
+
+          <div class="split">
+            <h2 class="h2" data-reveal>Four schools.<br />One mindset.</h2>
+            <p class="split__lede" data-reveal style="--i: 1">
+              Every stage at Ashgrove is designed around the same idea: give
+              pupils the tools, then get out of their way.
+            </p>
+          </div>
+
+          <div class="cards">
+            <a class="card" href="#admissions" data-reveal style="--i: 0">
+              <span class="card__index">01</span>
+              <h3>Lower School<em>Years 7–9</em></h3>
+              <p>A broad, playful foundation — languages, making, music and the outdoors, all in small tutor groups.</p>
+              <span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="card" href="#admissions" data-reveal style="--i: 1">
+              <span class="card__index">02</span>
+              <h3>Middle School<em>Years 10–11</em></h3>
+              <p>GCSEs with real depth, plus a term-long independent project of your own choosing.</p>
+              <span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="card" href="#admissions" data-reveal style="--i: 2">
+              <span class="card__index">03</span>
+              <h3>Sixth Form<em>Years 12–13</em></h3>
+              <p>Three or four A-Levels, a research dissertation and genuine independence over your day.</p>
+              <span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="card" href="#admissions" data-reveal style="--i: 3">
+              <span class="card__index">04</span>
+              <h3>Studio Ashgrove<em>All years</em></h3>
+              <p>Our after-hours programme: ceramics, coding, jazz, robotics, climbing and everything between.</p>
+              <span class="card__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAMPUS -->
+      <section class="section campus" id="campus">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>03 — Campus life</p>
+            <p class="label label--right" data-reveal>18 acres · Northfield</p>
+          </div>
+
+          <div class="split">
+            <h2 class="h2" data-reveal>A place to<br />wander and make.</h2>
+            <p class="split__lede" data-reveal style="--i: 1">
+              Studios that stay open late, a library with a treehouse, and woods
+              at the end of the playing fields. Space changes how you learn.
+            </p>
+          </div>
+
+          <div class="gallery">
+            <figure class="tile tile--tall" data-reveal style="--i: 0">
+              <div class="tile__art tile__art--a">
+                <img
+                  src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=1000&amp;h=1300&amp;q=80"
+                  alt="A teacher talking with pupils at the whiteboard in a bright Ashgrove classroom"
+                  loading="lazy"
+                  width="1000"
+                  height="1300"
+                />
+              </div>
+              <figcaption><span>The Classroom</span><small>Small groups, big questions</small></figcaption>
+            </figure>
+            <figure class="tile" data-reveal style="--i: 1">
+              <div class="tile__art tile__art--b">
+                <img
+                  src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&amp;fit=crop&amp;w=900&amp;h=700&amp;q=80"
+                  alt="Tall shelves of books in the school library"
+                  loading="lazy"
+                  width="900"
+                  height="700"
+                />
+              </div>
+              <figcaption><span>The Grove Library</span><small>42,000 volumes</small></figcaption>
+            </figure>
+            <figure class="tile" data-reveal style="--i: 2">
+              <div class="tile__art tile__art--c">
+                <img
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&amp;fit=crop&amp;w=900&amp;h=700&amp;q=80"
+                  alt="Sixth form students working together around a laptop"
+                  loading="lazy"
+                  width="900"
+                  height="700"
+                />
+              </div>
+              <figcaption><span>Sixth Form Study</span><small>Open until 8pm</small></figcaption>
+            </figure>
+            <figure class="tile tile--wide" data-reveal style="--i: 3">
+              <div class="tile__art tile__art--d">
+                <img
+                  src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&amp;fit=crop&amp;w=1400&amp;h=700&amp;q=80"
+                  alt="The main school building seen across the lawn"
+                  loading="lazy"
+                  width="1400"
+                  height="700"
+                />
+              </div>
+              <figcaption><span>The Main Building</span><small>18 acres · Northfield</small></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- FACULTY -->
+      <section class="section faculty" id="faculty">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>04 — Faculty</p>
+            <p class="label label--right" data-reveal>24 teachers · 9 subjects</p>
+          </div>
+
+          <div class="split">
+            <h2 class="h2" data-reveal>The people<br />who teach you.</h2>
+            <p class="split__lede" data-reveal style="--i: 1">
+              Subject specialists, working artists and former researchers. Every
+              one of them is a teacher first — and every one of them knows your
+              name.
+            </p>
+          </div>
+
+          <div class="faculty-grid">
+            <article class="fac" data-reveal style="--i: 0">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Dr. Eleanor Voss"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">01</span>
+                <h3>Dr. Eleanor Voss<em>Head of Science</em></h3>
+              </div>
+              <p class="fac__meta">PhD Chemistry · Imperial College London</p>
+            </article>
+
+            <article class="fac" data-reveal style="--i: 1">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Marcus Bell"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">02</span>
+                <h3>Marcus Bell<em>Mathematics</em></h3>
+              </div>
+              <p class="fac__meta">MSc Mathematics · University of Edinburgh</p>
+            </article>
+
+            <article class="fac" data-reveal style="--i: 2">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Aisha Rahman"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">03</span>
+                <h3>Aisha Rahman<em>English &amp; Literature</em></h3>
+              </div>
+              <p class="fac__meta">MA English · University of Oxford</p>
+            </article>
+
+            <article class="fac" data-reveal style="--i: 0">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Tomás Ferreira"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">04</span>
+                <h3>Tomás Ferreira<em>Design &amp; Technology</em></h3>
+              </div>
+              <p class="fac__meta">BDes Industrial Design · TU Delft</p>
+            </article>
+
+            <article class="fac" data-reveal style="--i: 1">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Jonas Lindqvist"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">05</span>
+                <h3>Jonas Lindqvist<em>Music &amp; Performance</em></h3>
+              </div>
+              <p class="fac__meta">MMus Performance · Royal College of Music</p>
+            </article>
+
+            <article class="fac" data-reveal style="--i: 2">
+              <div class="fac__photo">
+                <img
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&amp;fit=crop&amp;crop=faces&amp;w=700&amp;h=850&amp;q=80"
+                  alt="Portrait of Hannah Okafor"
+                  loading="lazy"
+                  width="700"
+                  height="850"
+                />
+                <span class="fac__no">06</span>
+                <h3>Hannah Okafor<em>History &amp; Politics</em></h3>
+              </div>
+              <p class="fac__meta">BA History · University of Bristol</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUEST CLASSROOM -->
+      <section class="section video" id="watch">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>05 — Guest classroom</p>
+            <p class="label label--right" data-reveal>Episode 01 · TED</p>
+          </div>
+
+          <div class="split">
+            <h2 class="h2" data-reveal>A classroom<br />without walls.</h2>
+            <p class="split__lede" data-reveal style="--i: 1">
+              Every term a guest speaker joins us in the lecture theatre and the
+              whole school watches together. This term: Sir Ken Robinson on why
+              creativity belongs in every classroom.
+            </p>
+          </div>
+
+          <div class="player" data-reveal>
+            <button
+              class="player__frame"
+              type="button"
+              data-video-open
+              aria-label="Play the guest classroom video: Do schools kill creativity? by Sir Ken Robinson"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=1600&amp;h=900&amp;q=80"
+                alt="Pupils and a teacher in an Ashgrove classroom"
+                loading="lazy"
+                width="1600"
+                height="900"
+              />
+              <span class="player__scrim"></span>
+              <span class="player__play" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 5.2v13.6L19 12z" /></svg>
+              </span>
+              <span class="player__bar">
+                <span class="player__info">
+                  <span class="player__meta">Guest Classroom · Episode 01</span>
+                  <span class="player__title">
+                    Do schools kill creativity?
+                    <em>Sir Ken Robinson · TED</em>
+                  </span>
+                </span>
+                <span class="player__cta" aria-hidden="true">Play</span>
+              </span>
+            </button>
+            <p class="player__note">
+              Screened in the lecture theatre and streamed to every tutor group ·
+              19 minutes
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VOICES -->
+      <section class="section voices" id="voices">
+        <div class="shell voices__inner">
+          <div class="voices__head">
+            <p class="label" data-reveal>06 — Voices</p>
+            <h2 class="h2" data-reveal style="--i: 1">Heard from<br />the grove.</h2>
+          </div>
+
+          <div class="quotes" data-quotes>
+            <blockquote class="quote is-active" data-slide>
+              <p>“I came for the science labs. I stayed because a teacher asked me what I thought — and then waited for a real answer.”</p>
+              <footer><span>Maya O.</span><small>Year 12</small></footer>
+            </blockquote>
+            <blockquote class="quote" data-slide>
+              <p>“Our daughter was quiet in her old school. Eight months here and she's running the debate club. That's the whole review.”</p>
+              <footer><span>Daniel &amp; Priya R.</span><small>Parents, Year 9</small></footer>
+            </blockquote>
+            <blockquote class="quote" data-slide>
+              <p>“The independent project taught me more than any exam. I built a water sensor for the science block — it's still there.”</p>
+              <footer><span>Tomás A.</span><small>Alumni, 2023</small></footer>
+            </blockquote>
+
+            <div class="quotes__nav">
+              <button type="button" data-prev aria-label="Previous quote">←</button>
+              <div class="quotes__dots" data-dots></div>
+              <button type="button" data-next aria-label="Next quote">→</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADMISSIONS -->
+      <section class="section admissions" id="admissions">
+        <div class="shell">
+          <div class="section-head">
+            <p class="label" data-reveal>07 — Admissions</p>
+            <p class="label label--right" data-reveal>Entry 2027 open</p>
+          </div>
+
+          <div class="split">
+            <h2 class="h2" data-reveal>Four steps<br />to Ashgrove.</h2>
+            <p class="split__lede" data-reveal style="--i: 1">
+              No hoops, no pressure. Come and see the place, meet the people,
+              and take it from there.
+            </p>
+          </div>
+
+          <ol class="timeline" data-timeline>
+            <li data-reveal style="--i: 0">
+              <span class="timeline__dot"></span>
+              <span class="timeline__step">Step 01</span>
+              <h3>Visit us</h3>
+              <p>Join an open morning or a private tour. Wander the studios, sit in on a lesson, talk to pupils.</p>
+            </li>
+            <li data-reveal style="--i: 1">
+              <span class="timeline__dot"></span>
+              <span class="timeline__step">Step 02</span>
+              <h3>Apply</h3>
+              <p>A short form, a school report and a conversation. We are looking for curiosity, not perfection.</p>
+            </li>
+            <li data-reveal style="--i: 2">
+              <span class="timeline__dot"></span>
+              <span class="timeline__step">Step 03</span>
+              <h3>Spend a day</h3>
+              <p>Your child comes in for a full day with their year group. It tells us more than any test.</p>
+            </li>
+            <li data-reveal style="--i: 3">
+              <span class="timeline__dot"></span>
+              <span class="timeline__step">Step 04</span>
+              <h3>Join us</h3>
+              <p>Offers go out in January. Bursaries and scholarships are assessed alongside every application.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <div class="cta__inner">
+          <p class="label" data-reveal>Come and see</p>
+          <h2 class="cta__title">
+            <span class="line"><span data-reveal>Open morning</span></span>
+            <span class="line"><span data-reveal style="--i: 1">Saturday, 6 February</span></span>
+          </h2>
+          <div class="cta__actions" data-reveal style="--i: 2">
+            <a class="btn btn--ink" href="#top">Reserve a place</a>
+            <p>9.30am – 12pm · Northfield campus<br />No booking fee. Coffee included.</p>
+          </div>
+        </div>
+        <div class="cta__marquee" aria-hidden="true">
+          <div class="ticker__track ticker__track--slow">
+            <span>Curiosity</span><i>✳</i><span>Character</span><i>✳</i><span>Community</span><i>✳</i>
+            <span>Curiosity</span><i>✳</i><span>Character</span><i>✳</i><span>Community</span><i>✳</i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer__inner">
+        <div class="footer__brand">
+          <span class="brand__mark">A</span>
+          <p>Ashgrove Academy<br />Northfield, NF4 2QT</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <h4>Visit</h4>
+            <p>Mon–Fri, 8am–5pm<br />01632 960 118<br />hello@ashgrove.school</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <p><a href="#about">About</a><br /><a href="#programmes">Programmes</a><br /><a href="#admissions">Admissions</a></p>
+          </div>
+          <div>
+            <h4>Follow</h4>
+            <p><a href="#top">Instagram</a><br /><a href="#top">YouTube</a><br /><a href="#top">Newsletter</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="ship">
+        <span>© 2026 Ashgrove Academy</span>
+        <span>Where curiosity becomes character</span>
+      </div>
+    </footer>
+
+    <div class="video-modal" data-video-modal hidden>
+      <button class="video-modal__backdrop" type="button" data-video-close aria-label="Close video"></button>
+      <div class="video-modal__panel" role="dialog" aria-modal="true" aria-label="Guest classroom video">
+        <button class="video-modal__close" type="button" data-video-close aria-label="Close video">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+        <div class="video-modal__frame" data-video-frame></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
